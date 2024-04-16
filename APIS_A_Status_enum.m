@@ -1,11 +1,11 @@
-classdef SCAS_A_Status_enum < Simulink.IntEnumType
+classdef APIS_A_Status_enum < Simulink.IntEnumType
     % MATLAB enumeration class definition generated from template
     
     enumeration
-        SCAS_A_Status_INIT(0),
-		SCAS_A_Status_DISABLED(1),
-		SCAS_A_Status_ENABLED(2),
-		SCAS_A_Status_FAULT(hex2dec('0x7FFFFFFF')),
+        APIS_A_Status_INIT(0),
+		APIS_A_Status_DISABLED(1),
+		APIS_A_Status_ENABLED(2),
+		APIS_A_Status_FAULT(hex2dec('0x7FFFFFFF')),
     end
 
     methods (Static)
@@ -13,7 +13,7 @@ classdef SCAS_A_Status_enum < Simulink.IntEnumType
         function defaultValue = getDefaultValue()
             % GETDEFAULTVALUE  Returns the default enumerated value.
             %   If this method is not defined, the first enumeration is used.
-            defaultValue = SCAS_A_Status_enum.SCAS_A_Status_INIT;
+            defaultValue = APIS_A_Status_enum.APIS_A_Status_INIT;
         end
 
         function dScope = getDataScope()
@@ -29,7 +29,7 @@ classdef SCAS_A_Status_enum < Simulink.IntEnumType
         
         function headerFile = getHeaderFile()
             % GETHEADERFILE  Specifies the name of a header file. 
-            headerFile = 'SCAS_A_Status_enum.h';
+            headerFile = 'APIS_A_Status_enum.h';
         end
         
         function flag = addClassNameToEnumNames()
