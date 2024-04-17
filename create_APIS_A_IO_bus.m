@@ -25,6 +25,17 @@ elems(2).Max = [];
 elems(2).DocUnits = '';
 elems(2).Description = '';
 
+elems(3) = Simulink.BusElement;
+elems(3).Name = 'APIS_A_Accelerator_Pedal_Signal';
+elems(3).Dimensions = 1;
+elems(3).DimensionsMode = 'Fixed';
+elems(3).DataType = 'single';
+elems(3).Complexity = 'real';
+elems(3).Min = [];
+elems(3).Max = [];
+elems(3).DocUnits = '';
+elems(3).Description = '';
+
 APIS_A_Input_bus = Simulink.Bus;
 APIS_A_Input_bus.HeaderFile = '';
 APIS_A_Input_bus.Description = '';
