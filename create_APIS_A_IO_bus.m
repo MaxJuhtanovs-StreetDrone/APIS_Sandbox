@@ -60,6 +60,17 @@ elems(1).Max = [];
 elems(1).DocUnits = '';
 elems(1).Description = '';
 
+elems(2) = Simulink.BusElement;
+elems(2).Name = 'APIS_A_Status';
+elems(2).Dimensions = 1;
+elems(2).DimensionsMode = 'Fixed';
+elems(2).DataType = 'Enum: APIS_A_Status_enum';
+elems(2).Complexity = 'real';
+elems(2).Min = [];
+elems(2).Max = [];
+elems(2).DocUnits = '';
+elems(2).Description = '';
+
 elems(3) = Simulink.BusElement;
 elems(3).Name = 'APIS_A_Position';
 elems(3).Dimensions = 1;
@@ -71,16 +82,16 @@ elems(3).Max = [];
 elems(3).DocUnits = '';
 elems(3).Description = '';
 
-elems(2) = Simulink.BusElement;
-elems(2).Name = 'APIS_A_Status';
-elems(2).Dimensions = 1;
-elems(2).DimensionsMode = 'Fixed';
-elems(2).DataType = 'Enum: APIS_A_Status_enum';
-elems(2).Complexity = 'real';
-elems(2).Min = [];
-elems(2).Max = [];
-elems(2).DocUnits = '';
-elems(2).Description = '';
+elems(4) = Simulink.BusElement;
+elems(4).Name = 'APIS_A_Accelerator_Pedal_Signal_Monitor';
+elems(4).Dimensions = 1;
+elems(4).DimensionsMode = 'Fixed';
+elems(4).DataType = 'single';
+elems(4).Complexity = 'real';
+elems(4).Min = [];
+elems(4).Max = [];
+elems(4).DocUnits = '';
+elems(4).Description = '';
 
 APIS_A_Output_bus = Simulink.Bus;
 APIS_A_Output_bus.HeaderFile = '';
