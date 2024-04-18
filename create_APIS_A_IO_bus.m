@@ -26,7 +26,7 @@ elems(2).DocUnits = '';
 elems(2).Description = '';
 
 elems(3) = Simulink.BusElement;
-elems(3).Name = 'APIS_A_Setpoint';
+elems(3).Name = 'APIS_A_Setpoint_Request';
 elems(3).Dimensions = 1;
 elems(3).DimensionsMode = 'Fixed';
 elems(3).DataType = 'single';
